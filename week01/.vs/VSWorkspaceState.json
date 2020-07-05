@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\maoyan_movie",
-    "\\maoyan_movie\\maoyan_movie"
+    "\\maoyan_movie\\maoyan_movie",
+    "\\maoyan_movie\\maoyan_movie\\spiders"
   ],
-  "SelectedNode": "\\maoyan_bs.py",
+  "SelectedNode": "\\maoyan_movie\\maoyan_movie\\spiders\\maoyan.py",
   "PreviewInSolutionExplorer": false
 }
