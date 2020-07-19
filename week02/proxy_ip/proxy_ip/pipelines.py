@@ -36,7 +36,7 @@ class ProxyIpPipeline:
                 CREATE TABLE movies(
                 name VARCHAR(20) NOT NULL,
                 type VARCHAR(20) NOT NULL,
-                time DATE NOT NULL)
+                time DATE NOT NULL);
         '''
         self.cursor.execute(create_sql)
 
@@ -47,7 +47,7 @@ class ProxyIpPipeline:
     def process_item(self, item, spider):
         inseert_sql = f'''
             INSERT INTO TABLE movies(name,type,time) 
-            VALUES({item['name']},{item['type']},{item['time']})'''
+            VALUES({item['name']},{item['type']},{item['time']});'''
         try:
             self.cursor.execute(insert_sql)
         except:

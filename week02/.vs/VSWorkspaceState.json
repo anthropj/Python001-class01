@@ -1,9 +1,10 @@
 {
   "ExpandedNodes": [
     "",
+    "\\proxy_ip",
     "\\proxy_ip\\proxy_ip",
     "\\proxy_ip\\proxy_ip\\spiders"
   ],
-  "SelectedNode": "\\shimo.py",
+  "SelectedNode": "\\proxy_ip\\proxy_ip\\spiders\\maoyan_mysql.py",
   "PreviewInSolutionExplorer": false
 }
