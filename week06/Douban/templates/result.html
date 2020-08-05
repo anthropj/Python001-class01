@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Douban</title>
+    </head>
+    <body>
+        <table class="table-for-douban">
+            <thead>
+                <tr>
+                    <th>comment</th>
+                    <th>star</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for short in shorts %}
+                <tr>
+                    <td>{{short.comment}}</td>
+                    <td>{{short.new_star}}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </body>
+</html>
